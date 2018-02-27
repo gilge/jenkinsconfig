@@ -11,3 +11,4 @@ docker run \
     --env JAVA_OPTS=-Djenkins.install.runSetupWizard=false \
     jenkins-master &&\
     docker logs -f jenkins-master;
+    
